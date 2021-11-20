@@ -241,6 +241,7 @@ class MovieManagerTest {
         Movie[] expected = new Movie[]{third, second, first};
         assertArrayEquals(expected, actual);
     }
+
 }
 
 
