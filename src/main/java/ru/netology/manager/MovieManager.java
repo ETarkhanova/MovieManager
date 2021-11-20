@@ -17,7 +17,7 @@ public class MovieManager {
 
         this.movieCounter = 10;
     }
-
+    
     public void addMovie(Movie movie) {
         int length = movies.length + 1;
         Movie[] tmp = new Movie[length];
